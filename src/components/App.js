@@ -3,7 +3,7 @@ import UserCreate from './UserCreate'
 import { LanguageProvider } from '../contexts/LanguageContext'
 import {ColorProvider} from '../contexts/ColorContext'
 
-const App = () => {
+const App = () => {//parent component
 
     const [language, setLanguage] = useState('english')
     const [color, setColor] = useState('red')

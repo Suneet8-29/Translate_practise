@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Field = () => {
+const Field = () => {//Display name into ui 
     return (
         <div className='ui field'>
             <label>Name</label>

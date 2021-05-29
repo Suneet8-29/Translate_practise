@@ -3,6 +3,7 @@ import LanguageContext from '../contexts/LanguageContext'
 import ColorContext from '../contexts/ColorContext'
 
 const Button = () => {//branch changed - add color 
+    //this button is related to field
     const y =  useContext(LanguageContext);
     const x =  useContext(ColorContext);
 

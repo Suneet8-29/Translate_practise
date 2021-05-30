@@ -9,7 +9,8 @@ const Button = () => {//branch changed - add color
 
     return <button className={`ui button ${x}`} >
         {y}
-     </button>
+    </button>
+    //this comment was added into remote branch
 }
 
 export default Button;
